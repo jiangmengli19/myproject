@@ -21,4 +21,12 @@ boxplot(len ~ supp, data = teeth)
 boxplot(len ~ dose + supp, data = teeth)
 
 ```
+Now we add some new thing
+We need to publish it again
+```{r box}
+boxplot(len ~ dose, data = teeth)
+```
+
+
+
 
