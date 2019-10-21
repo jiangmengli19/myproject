@@ -33,6 +33,7 @@ We try to do something more
 ```{r}
 boxplot(len ~ dose-supp , data = teeth)
 boxplot(len ~ dose + dose, data = teeth)
+boxplot(len ~dose + dose , data = teeth)
 ```
 
 
