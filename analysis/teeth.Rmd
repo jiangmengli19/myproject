@@ -9,7 +9,16 @@ editor_options:
 
 ## Introduction
 
-```{r}
+```{r import-teeth}
+teeth <- read.csv("data/teeth.csv", row.names = 1)
+head(teeth)
+```
+
+
+```{r boxplots}
+boxplot(len ~ dose, data = teeth)
+boxplot(len ~ supp, data = teeth)
+boxplot(len ~ dose + supp, data = teeth)
 
 ```
 

@@ -10,3 +10,5 @@ editor_options:
 
 Welcome to my research website. Here you can enjoy
 Here is an another instruction to data
+
+* [Teeth growth](teeth.html)
